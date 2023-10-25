@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" href="styles.css">
+        <title>Table Display</title>
+    </head>
+    <body>
+        <header>
+            <h1>Pengambil Tabel</h1>
+            <style>
+                h1 {color: blue;}
+            </style>
+        </header>
+        <article>
+            <section> 
+                <div>
+                    <p>Masukkan Link untuk tabel anda</p>
+                    <input type="text" id="url" placeholder="Masukkan URL" value="https://testingalpro.alwaysdata.net/api/getcoffee.php">
+                    <br>
+                    <button id="fetchButton" onclick="fetchData()">Ambil Data</button>
+                    <script  src="main.js"></script>
+                    <div id="table-container">
+                        <table id="data-table"></table>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <p>Algoritma Pemrograman II - Aldi Aditya S</p>
+            </footer>
+        </article>
+    </body>
+</html>
